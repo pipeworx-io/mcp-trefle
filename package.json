@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-trefle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trefle MCP — global plant database (1M+ species)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-trefle": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "trefle"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-trefle"
+    "url": "git+https://github.com/pipeworx-io/mcp-trefle.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-87d1fafabe6b239103ce5cd17826f779fa16c55397e0101410d2c69ed8772ffc",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
