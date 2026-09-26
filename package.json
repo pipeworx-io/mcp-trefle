@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-trefle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Trefle MCP — global plant database (1M+ species)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-87d1fafabe6b239103ce5cd17826f779fa16c55397e0101410d2c69ed8772ffc",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-33947142fdbd4192d5cd87a869a457a7d3d5b26c8c5d4254787e15c77832edfa",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
