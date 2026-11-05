@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-trefle",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Trefle MCP — global plant database (1M+ species)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "trefle",
     "gatewaySlug": "trefle",
-    "sourceHash": "v1-f292d2461ff2f5a0bdf573d42b5d7c41c14c2881757d3f7a83ae2192e9e9e850",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-f90f242da8041a2f089eb28ff8d36f9c5dab1501ad8f1eed19cc787ae5a8fff5",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
